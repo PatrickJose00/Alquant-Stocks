@@ -1,6 +1,9 @@
 I could not make the client side work on heroku.
 I had an issue and did not had time to fix it in time.
 
+
+Link to git: https://github.com/PatrickJose00/Alquant-Stocks
+
 We can see the app running locally if:
 
     cd into client folder and run:
