@@ -1,0 +1,13 @@
+setup.py
+Webpp.egg-info/PKG-INFO
+Webpp.egg-info/SOURCES.txt
+Webpp.egg-info/dependency_links.txt
+Webpp.egg-info/top_level.txt
+app/__init__.py
+app/api/__init__.py
+app/api/endpoints/__init__.py
+app/api/endpoints/stocks.py
+app/services/__init__.py
+app/services/stock_services.py
+app/utils/__init__.py
+app/utils/stock_utils.py
