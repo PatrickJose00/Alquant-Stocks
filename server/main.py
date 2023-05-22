@@ -7,17 +7,14 @@ import os
 
 app = FastAPI(debug=True)
 
-# Include the routers for your API
-app.include_router(stocks.router)
 
 app.add_middleware(
     CORSMiddleware,
     allow_origins=['*']
 )
 
-
-# Mount the static files directory to a specific URL
-app.mount("/static", StaticFiles(directory="static"), name="index")
+# Include the routers for your API
+app.include_router(stocks.router)
 
 
 
