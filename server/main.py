@@ -23,4 +23,4 @@ app.include_router(stocks.router)
 # Run the app with Uvicorn
 if __name__ == "__main__":
 
-    uvicorn.run(app, host="0.0.0.0", port=8000)
+   icorn.run(app, host="https://stock-server-3-stocks.herokuapp.com", port=8000)

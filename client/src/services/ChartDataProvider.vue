@@ -20,7 +20,9 @@ const loading = ref(false);
 
 const fetchData = async () => {
   loading.value = true;
-  const result = await fetch(`http://localhost:8000/stocks/${props.symbol}`);
+  const result = await fetch(
+    `https://stock-server-3-stocks.herokuapp.com/stocks/${props.symbol}`
+  );
   const response = await result.json();
   data.value = response.data.map((item) => ({
     timestamp: item.timestamp,
